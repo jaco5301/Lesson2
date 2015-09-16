@@ -15,11 +15,11 @@ public class Makeline {
         c.print("\nEnter x2: ");
         x2 = c.readInt();
         p.up();
-        p.move(x1-200,y1-200);
+        p.move(x1-180,y1-180);
         p.down();
-        p.drawString("(" + y1 + ", " + x1 + ")");
-        p.move(x2-200,y2-200);
-        p.drawString("(" + y2 + ", " + x1 + ")");
+        p.drawString("(" + x1 + ", " + y1 + ")");
+        p.move(x2-180,y2-180);
+        p.drawString("(" + x2 + ", " + y2 + ")");
         
     }
     
