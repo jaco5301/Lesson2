@@ -19,8 +19,6 @@ public class Makeline {
         p.down();
         p.drawString("(" + x1 + ", " + y1 + ")");
         p.move(x2-180,y2-180);
-        p.drawString("(" + x2 + ", " + y2 + ")");
-        
+        p.drawString("(" + x2 + ", " + y2 + ")");   
     }
-    
 }
