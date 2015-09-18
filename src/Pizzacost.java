@@ -11,7 +11,7 @@ public class Pizzacost {
         toppings= 0.75;
         base2= 0.5;
         total= 0;
-        c.print("What size of pizza to do you want (in inches): ");
+        c.print("What size of pizza do you want (in inches): ");
         size=c.readDouble();
         c.print("\nHow many toppings do you want? ");
         topnum=c.readDouble();
